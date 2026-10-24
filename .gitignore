@@ -46,19 +46,10 @@ researchwrite/
 专利*/
 **/专利*/
 
-# LaTeX intermediates + portable tectonic binary
-paper/**/_build/
-paper/**/_archive/
-paper/**/_texbin/
-paper/**/*.aux
-paper/**/*.log
-paper/**/*.out
-paper/**/*.toc
-paper/**/*.fls
-paper/**/*.fdb_latexmk
-paper/**/*.synctex.gz
+# Manuscript / revision notes stay local (not for public reproduction repo)
+paper/
 
-# outputs: keep only paper-facing adopted runs
+# outputs: keep only adopted runs needed for verification
 outputs/*
 !outputs/info_levels_severson_loco/
 !outputs/info_levels_severson_loco/**
@@ -70,9 +61,6 @@ outputs/*
 !outputs/revision_controls/**
 !outputs/info_levels_severson/
 !outputs/info_levels_severson/**
-
-# other paper lines under paper/ (optional local)
-paper/ei_manuscript/
 
 # local GitHub PAT (never commit)
 .github_token
