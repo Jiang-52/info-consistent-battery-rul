@@ -1,0 +1,75 @@
+# Python / env
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.egg-info/
+.pytest_cache/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Weights / binaries
+*.pt
+*.pth
+*.ckpt
+*.rar
+*.zip
+*.7z
+
+# Large / unrelated trees (keep local; not for this methods repo)
+data/
+quote/
+ref_repo/
+ref_repo2/
+tools/
+patent_invention_draft/
+researchwrite/
+.cursor/
+
+# Chinese project side-folders / archives (local only)
+软件著作权*/
+**/软件著作权*/
+信息一致*/
+**/信息一致*/
+发给老师*/
+**/发给老师*/
+实验记录*/
+**/实验记录*/
+导师汇报*/
+**/导师汇报*/
+科研计划*/
+**/科研计划*/
+专利*/
+**/专利*/
+
+# LaTeX intermediates + portable tectonic binary
+paper/**/_build/
+paper/**/_archive/
+paper/**/_texbin/
+paper/**/*.aux
+paper/**/*.log
+paper/**/*.out
+paper/**/*.toc
+paper/**/*.fls
+paper/**/*.fdb_latexmk
+paper/**/*.synctex.gz
+
+# outputs: keep only paper-facing adopted runs
+outputs/*
+!outputs/info_levels_severson_loco/
+!outputs/info_levels_severson_loco/**
+!outputs/info_levels_v2/
+!outputs/info_levels_v2/**
+!outputs/l1p_mechanism/
+!outputs/l1p_mechanism/**
+!outputs/revision_controls/
+!outputs/revision_controls/**
+!outputs/info_levels_severson/
+!outputs/info_levels_severson/**
+
+# other paper lines under paper/ (optional local)
+paper/ei_manuscript/

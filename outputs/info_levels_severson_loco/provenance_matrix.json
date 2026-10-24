@@ -1,0 +1,104 @@
+[
+  {
+    "step": "raw NASA .mat / CALCE npy",
+    "available_at_t": true,
+    "target_future": false,
+    "level": "source"
+  },
+  {
+    "step": "discharge integration \u2192 Q_t",
+    "available_at_t": true,
+    "target_future": false,
+    "level": "L0+"
+  },
+  {
+    "step": "cap_norm = Q_t / Q_1 (this cell only)",
+    "available_at_t": true,
+    "target_future": false,
+    "level": "L0+"
+  },
+  {
+    "step": "mean_V / mean_I / mean_T / std_V (history \u2264 t)",
+    "available_at_t": true,
+    "target_future": false,
+    "level": "L0+"
+  },
+  {
+    "step": "raw cycle index t",
+    "available_at_t": true,
+    "target_future": false,
+    "level": "L0"
+  },
+  {
+    "step": "L0 channel = t (unscaled)",
+    "available_at_t": true,
+    "target_future": false,
+    "level": "L0"
+  },
+  {
+    "step": "L0_clock channel = t/1000 (linear transform of t)",
+    "available_at_t": true,
+    "target_future": false,
+    "level": "L0-sens"
+  },
+  {
+    "step": "T_EOL := first cycle with SOH\u22640.7",
+    "available_at_t": false,
+    "target_future": true,
+    "level": "label+L2"
+  },
+  {
+    "step": "L1 channel = t / median(T_EOL siblings)",
+    "available_at_t": true,
+    "target_future": false,
+    "level": "L1"
+  },
+  {
+    "step": "L2 channel = t / T_EOL^target",
+    "available_at_t": false,
+    "target_future": true,
+    "level": "L2"
+  },
+  {
+    "step": "RUL label = cycles until SOH\u22640.7",
+    "available_at_t": false,
+    "target_future": true,
+    "level": "label OK"
+  },
+  {
+    "step": "sliding window start/step (same cell, stride 1)",
+    "available_at_t": true,
+    "target_future": false,
+    "level": "L0+"
+  },
+  {
+    "step": "no cross-cell windows",
+    "available_at_t": true,
+    "target_future": false,
+    "level": "protocol"
+  },
+  {
+    "step": "chronological 80/20; no joint all-cell scaler",
+    "available_at_t": true,
+    "target_future": false,
+    "level": "protocol"
+  },
+  {
+    "step": "early-stopping on train-time validation RUL RMSE",
+    "available_at_t": true,
+    "target_future": false,
+    "level": "protocol"
+  },
+  {
+    "step": "hyperparameters fixed a priori (not tuned on test)",
+    "available_at_t": true,
+    "target_future": false,
+    "level": "protocol"
+  },
+  {
+    "step": "no VMD/EMD on the test trajectory",
+    "available_at_t": true,
+    "target_future": false,
+    "level": "protocol"
+  }
+]

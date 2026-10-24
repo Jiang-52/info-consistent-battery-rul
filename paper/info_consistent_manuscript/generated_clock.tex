@@ -1,0 +1,23 @@
+% OLS identity check (appendix only; not a predictive baseline)
+\begin{table}[htbp]
+\centering
+\caption{Appendix OLS identity check on evaluated chronological windows (RUL$>0$).
+OLS is an algebraic diagnostic of $\mathrm{RUL}=\max(0,T-t)$, not an out-of-sample predictive baseline: it is fit with an intercept on the same scored windows.
+Under that identity, OLS RMSE on raw~$t$ is numerically zero on NASA and CALCE.
+$\rho$ is Pearson correlation; $\rho(\mathrm{L1},\mathrm{L2})=1$ because L1 and L2 are affine in~$t$.
+L1P is not affine in~$t$.}
+\label{tab:clock}
+\begin{tabular}{@{}llcccc@{}}
+\toprule
+Corpus & Cell & $\rho(\mathrm{L1},\mathrm{L2})$ & $\rho(\mathrm{L1P},\mathrm{L2})$ & OLS $t$ & OLS L1P \\
+\midrule
+nasa & B0005 & 1.000 & -0.703 & 0 & 14.20 \\
+nasa & B0006 & 1.000 & -0.598 & 0 & 15.57 \\
+nasa & B0007 & 1.000 & -0.824 & 0 & 13.28 \\
+calce & CS2\_35 & 1.000 & -0.122 & 0 & 98.18 \\
+calce & CS2\_36 & 1.000 & -0.706 & 0 & 101.04 \\
+calce & CS2\_37 & 1.000 & -0.654 & 0 & 99.90 \\
+calce & CS2\_38 & 1.000 & -0.621 & 0 & 96.29 \\
+\bottomrule
+\end{tabular}
+\end{table}

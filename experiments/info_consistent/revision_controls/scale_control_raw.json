@@ -1,0 +1,569 @@
+[
+  {
+    "experiment": "scale_control",
+    "battery": "B0005",
+    "level": "L0",
+    "seed": 42,
+    "rul_rmse": 13.132453765140493,
+    "soh_rmse": 0.4513030113656384,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0005",
+    "level": "L0",
+    "seed": 43,
+    "rul_rmse": 14.871236625444038,
+    "soh_rmse": 0.3676061838195871,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0005",
+    "level": "L0",
+    "seed": 44,
+    "rul_rmse": 16.758540467535276,
+    "soh_rmse": 0.4956349662306723,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0005",
+    "level": "L1",
+    "seed": 42,
+    "rul_rmse": 26.63318716436232,
+    "soh_rmse": 0.5482209356160268,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0005",
+    "level": "L1",
+    "seed": 43,
+    "rul_rmse": 24.99511639435088,
+    "soh_rmse": 0.9031232641618941,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0005",
+    "level": "L1",
+    "seed": 44,
+    "rul_rmse": 19.233395830543618,
+    "soh_rmse": 0.65078755085573,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0005",
+    "level": "L2",
+    "seed": 42,
+    "rul_rmse": 26.494441365316447,
+    "soh_rmse": 0.5516816159832779,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0005",
+    "level": "L2",
+    "seed": 43,
+    "rul_rmse": 25.037156307118394,
+    "soh_rmse": 0.9103101308679739,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0005",
+    "level": "L2",
+    "seed": 44,
+    "rul_rmse": 19.21275643491313,
+    "soh_rmse": 0.6569084569321124,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0005",
+    "level": "L0_clock",
+    "seed": 42,
+    "rul_rmse": 25.693939719821277,
+    "soh_rmse": 0.558140275776087,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0005",
+    "level": "L0_clock",
+    "seed": 43,
+    "rul_rmse": 24.838511949891956,
+    "soh_rmse": 0.9235871774391812,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0005",
+    "level": "L0_clock",
+    "seed": 44,
+    "rul_rmse": 18.806090877147216,
+    "soh_rmse": 0.6747276803063118,
+    "n_test": 23
+  },
+  {
+    "experiment": "l2_plus_soh",
+    "battery": "B0005",
+    "level": "L2+SOH",
+    "seed": 42,
+    "rul_rmse": 19.56054427450392,
+    "soh_rmse": 0.3013301813059736,
+    "n_test": 23
+  },
+  {
+    "experiment": "l2_plus_soh",
+    "battery": "B0005",
+    "level": "L2+SOH",
+    "seed": 43,
+    "rul_rmse": 13.713874505711246,
+    "soh_rmse": 0.5604281369649373,
+    "n_test": 23
+  },
+  {
+    "experiment": "l2_plus_soh",
+    "battery": "B0005",
+    "level": "L2+SOH",
+    "seed": 44,
+    "rul_rmse": 9.716584823304288,
+    "soh_rmse": 0.8732316602266944,
+    "n_test": 23
+  },
+  {
+    "experiment": "soh_only",
+    "battery": "B0005",
+    "level": "L2",
+    "seed": 42,
+    "rul_rmse": 13.576884769417548,
+    "soh_rmse": 0.023648447097352053,
+    "n_test": 23
+  },
+  {
+    "experiment": "dual_head",
+    "battery": "B0005",
+    "level": "L2",
+    "seed": 42,
+    "rul_rmse": 26.494441365316447,
+    "soh_rmse": 0.5516816159832779,
+    "n_test": 23
+  },
+  {
+    "experiment": "soh_only",
+    "battery": "B0005",
+    "level": "L2",
+    "seed": 43,
+    "rul_rmse": 13.509399489270972,
+    "soh_rmse": 0.04614349918728065,
+    "n_test": 23
+  },
+  {
+    "experiment": "dual_head",
+    "battery": "B0005",
+    "level": "L2",
+    "seed": 43,
+    "rul_rmse": 25.037156307118394,
+    "soh_rmse": 0.9103101308679739,
+    "n_test": 23
+  },
+  {
+    "experiment": "soh_only",
+    "battery": "B0005",
+    "level": "L2",
+    "seed": 44,
+    "rul_rmse": 13.669969797553575,
+    "soh_rmse": 0.027420932416540873,
+    "n_test": 23
+  },
+  {
+    "experiment": "dual_head",
+    "battery": "B0005",
+    "level": "L2",
+    "seed": 44,
+    "rul_rmse": 19.21275643491313,
+    "soh_rmse": 0.6569084569321124,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0006",
+    "level": "L0",
+    "seed": 42,
+    "rul_rmse": 10.852404340128107,
+    "soh_rmse": 1.4021882157786223,
+    "n_test": 12
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0006",
+    "level": "L0",
+    "seed": 43,
+    "rul_rmse": 13.248190483748349,
+    "soh_rmse": 2.252618607544294,
+    "n_test": 12
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0006",
+    "level": "L0",
+    "seed": 44,
+    "rul_rmse": 8.353840707897152,
+    "soh_rmse": 0.3054114382858072,
+    "n_test": 12
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0006",
+    "level": "L1",
+    "seed": 42,
+    "rul_rmse": 10.552687360939343,
+    "soh_rmse": 0.8958955435236049,
+    "n_test": 12
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0006",
+    "level": "L1",
+    "seed": 43,
+    "rul_rmse": 12.202687411842923,
+    "soh_rmse": 1.0701571420614027,
+    "n_test": 12
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0006",
+    "level": "L1",
+    "seed": 44,
+    "rul_rmse": 8.793585840364747,
+    "soh_rmse": 0.48800185513354266,
+    "n_test": 12
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0006",
+    "level": "L2",
+    "seed": 42,
+    "rul_rmse": 10.721375957440141,
+    "soh_rmse": 0.8831903986792049,
+    "n_test": 12
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0006",
+    "level": "L2",
+    "seed": 43,
+    "rul_rmse": 12.250105313943273,
+    "soh_rmse": 1.0637401275812592,
+    "n_test": 12
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0006",
+    "level": "L2",
+    "seed": 44,
+    "rul_rmse": 8.873756247084126,
+    "soh_rmse": 0.4890693499272765,
+    "n_test": 12
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0006",
+    "level": "L0_clock",
+    "seed": 42,
+    "rul_rmse": 10.381131330022413,
+    "soh_rmse": 0.8891904407847369,
+    "n_test": 12
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0006",
+    "level": "L0_clock",
+    "seed": 43,
+    "rul_rmse": 12.08951759549853,
+    "soh_rmse": 1.056715385548375,
+    "n_test": 12
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0006",
+    "level": "L0_clock",
+    "seed": 44,
+    "rul_rmse": 8.688920929919508,
+    "soh_rmse": 0.48511960180326374,
+    "n_test": 12
+  },
+  {
+    "experiment": "l2_plus_soh",
+    "battery": "B0006",
+    "level": "L2+SOH",
+    "seed": 42,
+    "rul_rmse": 12.50743455439355,
+    "soh_rmse": 0.717294336264966,
+    "n_test": 12
+  },
+  {
+    "experiment": "l2_plus_soh",
+    "battery": "B0006",
+    "level": "L2+SOH",
+    "seed": 43,
+    "rul_rmse": 12.823660908074778,
+    "soh_rmse": 0.5451361657509718,
+    "n_test": 12
+  },
+  {
+    "experiment": "l2_plus_soh",
+    "battery": "B0006",
+    "level": "L2+SOH",
+    "seed": 44,
+    "rul_rmse": 8.916818526356979,
+    "soh_rmse": 0.6877106657023897,
+    "n_test": 12
+  },
+  {
+    "experiment": "soh_only",
+    "battery": "B0006",
+    "level": "L2",
+    "seed": 42,
+    "rul_rmse": 7.089158550672251,
+    "soh_rmse": 0.05166311548386677,
+    "n_test": 12
+  },
+  {
+    "experiment": "dual_head",
+    "battery": "B0006",
+    "level": "L2",
+    "seed": 42,
+    "rul_rmse": 10.721375957440141,
+    "soh_rmse": 0.8831903986792049,
+    "n_test": 12
+  },
+  {
+    "experiment": "soh_only",
+    "battery": "B0006",
+    "level": "L2",
+    "seed": 43,
+    "rul_rmse": 7.198959873977121,
+    "soh_rmse": 0.04021828537401492,
+    "n_test": 12
+  },
+  {
+    "experiment": "dual_head",
+    "battery": "B0006",
+    "level": "L2",
+    "seed": 43,
+    "rul_rmse": 12.250105313943273,
+    "soh_rmse": 1.0637401275812592,
+    "n_test": 12
+  },
+  {
+    "experiment": "soh_only",
+    "battery": "B0006",
+    "level": "L2",
+    "seed": 44,
+    "rul_rmse": 7.330878932361579,
+    "soh_rmse": 0.034059063001729235,
+    "n_test": 12
+  },
+  {
+    "experiment": "dual_head",
+    "battery": "B0006",
+    "level": "L2",
+    "seed": 44,
+    "rul_rmse": 8.873756247084126,
+    "soh_rmse": 0.4890693499272765,
+    "n_test": 12
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0007",
+    "level": "L0",
+    "seed": 42,
+    "rul_rmse": 12.695035442740279,
+    "soh_rmse": 0.5452765518286029,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0007",
+    "level": "L0",
+    "seed": 43,
+    "rul_rmse": 10.735955973669599,
+    "soh_rmse": 0.3486108442224002,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0007",
+    "level": "L0",
+    "seed": 44,
+    "rul_rmse": 17.308157072493437,
+    "soh_rmse": 0.2512263218009552,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0007",
+    "level": "L1",
+    "seed": 42,
+    "rul_rmse": 22.828638202967408,
+    "soh_rmse": 0.4113839534523422,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0007",
+    "level": "L1",
+    "seed": 43,
+    "rul_rmse": 21.708615668434028,
+    "soh_rmse": 0.6244398464142948,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0007",
+    "level": "L1",
+    "seed": 44,
+    "rul_rmse": 15.940011837799325,
+    "soh_rmse": 0.6562898417783581,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0007",
+    "level": "L2",
+    "seed": 42,
+    "rul_rmse": 23.06224742701077,
+    "soh_rmse": 0.4011265985389905,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0007",
+    "level": "L2",
+    "seed": 43,
+    "rul_rmse": 21.628899043740304,
+    "soh_rmse": 0.6179174525498647,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0007",
+    "level": "L2",
+    "seed": 44,
+    "rul_rmse": 15.882568414887272,
+    "soh_rmse": 0.6683152633630202,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0007",
+    "level": "L0_clock",
+    "seed": 42,
+    "rul_rmse": 21.704419503234337,
+    "soh_rmse": 0.3926453957294298,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0007",
+    "level": "L0_clock",
+    "seed": 43,
+    "rul_rmse": 21.098536771366028,
+    "soh_rmse": 0.6316178009660169,
+    "n_test": 23
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0007",
+    "level": "L0_clock",
+    "seed": 44,
+    "rul_rmse": 15.474718663805518,
+    "soh_rmse": 0.6858261874880208,
+    "n_test": 23
+  },
+  {
+    "experiment": "l2_plus_soh",
+    "battery": "B0007",
+    "level": "L2+SOH",
+    "seed": 42,
+    "rul_rmse": 14.596027366187284,
+    "soh_rmse": 0.31001523067992365,
+    "n_test": 23
+  },
+  {
+    "experiment": "l2_plus_soh",
+    "battery": "B0007",
+    "level": "L2+SOH",
+    "seed": 43,
+    "rul_rmse": 10.054613045103254,
+    "soh_rmse": 0.5101342826086018,
+    "n_test": 23
+  },
+  {
+    "experiment": "l2_plus_soh",
+    "battery": "B0007",
+    "level": "L2+SOH",
+    "seed": 44,
+    "rul_rmse": 28.612050686949146,
+    "soh_rmse": 0.6114644047691022,
+    "n_test": 23
+  },
+  {
+    "experiment": "soh_only",
+    "battery": "B0007",
+    "level": "L2",
+    "seed": 42,
+    "rul_rmse": 17.065115482162305,
+    "soh_rmse": 0.020271219365688535,
+    "n_test": 23
+  },
+  {
+    "experiment": "dual_head",
+    "battery": "B0007",
+    "level": "L2",
+    "seed": 42,
+    "rul_rmse": 23.06224742701077,
+    "soh_rmse": 0.4011265985389905,
+    "n_test": 23
+  },
+  {
+    "experiment": "soh_only",
+    "battery": "B0007",
+    "level": "L2",
+    "seed": 43,
+    "rul_rmse": 17.12200386759415,
+    "soh_rmse": 0.021727696633506714,
+    "n_test": 23
+  },
+  {
+    "experiment": "dual_head",
+    "battery": "B0007",
+    "level": "L2",
+    "seed": 43,
+    "rul_rmse": 21.628899043740304,
+    "soh_rmse": 0.6179174525498647,
+    "n_test": 23
+  },
+  {
+    "experiment": "soh_only",
+    "battery": "B0007",
+    "level": "L2",
+    "seed": 44,
+    "rul_rmse": 17.306298293836743,
+    "soh_rmse": 0.016737354851813623,
+    "n_test": 23
+  },
+  {
+    "experiment": "dual_head",
+    "battery": "B0007",
+    "level": "L2",
+    "seed": 44,
+    "rul_rmse": 15.882568414887272,
+    "soh_rmse": 0.6683152633630202,
+    "n_test": 23
+  }
+]

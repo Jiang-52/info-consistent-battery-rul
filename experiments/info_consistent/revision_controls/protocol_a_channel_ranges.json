@@ -1,0 +1,152 @@
+{
+  "B0005": {
+    "L0": {
+      "train_min": 0.0,
+      "train_max": 137.0,
+      "train_mean": 68.5,
+      "test_min": 89.0,
+      "test_max": 160.0,
+      "test_mean": 124.5,
+      "frac_test_above_train_max": 0.24,
+      "t_prior": 136.5,
+      "t_target": 161.0,
+      "n_windows": 112
+    },
+    "L1": {
+      "train_min": 0.0,
+      "train_max": 1.0036630630493164,
+      "train_mean": 0.5018314719200134,
+      "test_min": 0.6520146727561951,
+      "test_max": 1.1721612215042114,
+      "test_mean": 0.9120879173278809,
+      "frac_test_above_train_max": 0.24,
+      "t_prior": 136.5,
+      "t_target": 161.0,
+      "n_windows": 112
+    },
+    "L2": {
+      "train_min": 0.0,
+      "train_max": 0.850931704044342,
+      "train_mean": 0.425465852022171,
+      "test_min": 0.5527950525283813,
+      "test_max": 0.9937888383865356,
+      "test_mean": 0.7732919454574585,
+      "frac_test_above_train_max": 0.24,
+      "t_prior": 136.5,
+      "t_target": 161.0,
+      "n_windows": 112
+    },
+    "L0_clock": {
+      "train_min": 0.0,
+      "train_max": 0.13699999451637268,
+      "train_mean": 0.06850000470876694,
+      "test_min": 0.08900000154972076,
+      "test_max": 0.1599999964237213,
+      "test_mean": 0.12449999153614044,
+      "frac_test_above_train_max": 0.24,
+      "t_prior": 136.5,
+      "t_target": 161.0,
+      "n_windows": 112
+    }
+  },
+  "B0006": {
+    "L0": {
+      "train_min": 0.0,
+      "train_max": 93.0,
+      "train_mean": 46.5,
+      "test_min": 45.0,
+      "test_max": 105.0,
+      "test_mean": 75.0,
+      "frac_test_above_train_max": 0.13,
+      "t_prior": 164.0,
+      "t_target": 106.0,
+      "n_windows": 57
+    },
+    "L1": {
+      "train_min": 0.0,
+      "train_max": 0.5670731663703918,
+      "train_mean": 0.28353655338287354,
+      "test_min": 0.27439025044441223,
+      "test_max": 0.6402438879013062,
+      "test_mean": 0.4573170840740204,
+      "frac_test_above_train_max": 0.13,
+      "t_prior": 164.0,
+      "t_target": 106.0,
+      "n_windows": 57
+    },
+    "L2": {
+      "train_min": 0.0,
+      "train_max": 0.8773584961891174,
+      "train_mean": 0.4386792480945587,
+      "test_min": 0.4245283007621765,
+      "test_max": 0.9905660152435303,
+      "test_mean": 0.7075471878051758,
+      "frac_test_above_train_max": 0.13,
+      "t_prior": 164.0,
+      "t_target": 106.0,
+      "n_windows": 57
+    },
+    "L0_clock": {
+      "train_min": 0.0,
+      "train_max": 0.09300000220537186,
+      "train_mean": 0.04650000110268593,
+      "test_min": 0.04500000178813934,
+      "test_max": 0.10499999672174454,
+      "test_mean": 0.07500000298023224,
+      "frac_test_above_train_max": 0.13,
+      "t_prior": 164.0,
+      "t_target": 106.0,
+      "n_windows": 57
+    }
+  },
+  "B0007": {
+    "L0": {
+      "train_min": 0.0,
+      "train_max": 139.0,
+      "train_mean": 69.5,
+      "test_min": 91.0,
+      "test_max": 162.0,
+      "test_mean": 126.5,
+      "frac_test_above_train_max": 0.24,
+      "t_prior": 133.5,
+      "t_target": 167.0,
+      "n_windows": 114
+    },
+    "L1": {
+      "train_min": 0.0,
+      "train_max": 1.041198492050171,
+      "train_mean": 0.5205992460250854,
+      "test_min": 0.6816479563713074,
+      "test_max": 1.2134830951690674,
+      "test_mean": 0.947565495967865,
+      "frac_test_above_train_max": 0.24,
+      "t_prior": 133.5,
+      "t_target": 167.0,
+      "n_windows": 114
+    },
+    "L2": {
+      "train_min": 0.0,
+      "train_max": 0.832335352897644,
+      "train_mean": 0.416167676448822,
+      "test_min": 0.544910192489624,
+      "test_max": 0.970059871673584,
+      "test_mean": 0.757485032081604,
+      "frac_test_above_train_max": 0.24,
+      "t_prior": 133.5,
+      "t_target": 167.0,
+      "n_windows": 114
+    },
+    "L0_clock": {
+      "train_min": 0.0,
+      "train_max": 0.13899999856948853,
+      "train_mean": 0.06949999183416367,
+      "test_min": 0.09099999815225601,
+      "test_max": 0.16200000047683716,
+      "test_mean": 0.12650001049041748,
+      "frac_test_above_train_max": 0.24,
+      "t_prior": 133.5,
+      "t_target": 167.0,
+      "n_windows": 114
+    }
+  }
+}

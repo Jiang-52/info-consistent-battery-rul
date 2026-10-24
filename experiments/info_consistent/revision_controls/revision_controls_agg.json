@@ -1,0 +1,182 @@
+[
+  {
+    "experiment": "dual_head",
+    "battery": "B0005",
+    "level": "L2",
+    "soh_rmse_mean": 0.7063000679277881,
+    "soh_rmse_std": 0.1505174438388272,
+    "rul_rmse_mean": 23.581451369115992,
+    "rul_rmse_std": 3.1459011964045254,
+    "n": 3
+  },
+  {
+    "experiment": "dual_head",
+    "battery": "B0006",
+    "level": "L2",
+    "soh_rmse_mean": 0.8119999587292469,
+    "soh_rmse_std": 0.23994816763565105,
+    "rul_rmse_mean": 10.615079172822513,
+    "rul_rmse_std": 1.3804365276088557,
+    "n": 3
+  },
+  {
+    "experiment": "dual_head",
+    "battery": "B0007",
+    "level": "L2",
+    "soh_rmse_mean": 0.5624531048172918,
+    "soh_rmse_std": 0.11591567640505386,
+    "rul_rmse_mean": 20.191238295212784,
+    "rul_rmse_std": 3.1023753265494487,
+    "n": 3
+  },
+  {
+    "experiment": "l2_plus_soh",
+    "battery": "B0005",
+    "level": "L2+SOH",
+    "rul_rmse_mean": 14.330334534506484,
+    "rul_rmse_std": 4.0423509368140635,
+    "n": 3
+  },
+  {
+    "experiment": "l2_plus_soh",
+    "battery": "B0006",
+    "level": "L2+SOH",
+    "rul_rmse_mean": 11.415971329608434,
+    "rul_rmse_std": 1.771877220575275,
+    "n": 3
+  },
+  {
+    "experiment": "l2_plus_soh",
+    "battery": "B0007",
+    "level": "L2+SOH",
+    "rul_rmse_mean": 17.754230366079895,
+    "rul_rmse_std": 7.89832503759068,
+    "n": 3
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0005",
+    "level": "L0",
+    "rul_rmse_mean": 14.920743619373269,
+    "rul_rmse_std": 1.4807575539020559,
+    "n": 3
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0005",
+    "level": "L0_clock",
+    "rul_rmse_mean": 23.11284751562015,
+    "rul_rmse_std": 3.0652953881221703,
+    "n": 3
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0005",
+    "level": "L1",
+    "rul_rmse_mean": 23.620566463085606,
+    "rul_rmse_std": 3.17345958234549,
+    "n": 3
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0005",
+    "level": "L2",
+    "rul_rmse_mean": 23.581451369115992,
+    "rul_rmse_std": 3.1459011964045254,
+    "n": 3
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0006",
+    "level": "L0",
+    "rul_rmse_mean": 10.81814517725787,
+    "rul_rmse_std": 1.9982567735860994,
+    "n": 3
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0006",
+    "level": "L0_clock",
+    "rul_rmse_mean": 10.386523285146817,
+    "rul_rmse_std": 1.3882930107081952,
+    "n": 3
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0006",
+    "level": "L1",
+    "rul_rmse_mean": 10.516320204382339,
+    "rul_rmse_std": 1.3919974398254173,
+    "n": 3
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0006",
+    "level": "L2",
+    "rul_rmse_mean": 10.615079172822513,
+    "rul_rmse_std": 1.3804365276088557,
+    "n": 3
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0007",
+    "level": "L0",
+    "rul_rmse_mean": 13.57971616296777,
+    "rul_rmse_std": 2.7550501269973284,
+    "n": 3
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0007",
+    "level": "L0_clock",
+    "rul_rmse_mean": 19.425891646135295,
+    "rul_rmse_std": 2.804829100368819,
+    "n": 3
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0007",
+    "level": "L1",
+    "rul_rmse_mean": 20.159088569733587,
+    "rul_rmse_std": 3.0181748316852537,
+    "n": 3
+  },
+  {
+    "experiment": "scale_control",
+    "battery": "B0007",
+    "level": "L2",
+    "rul_rmse_mean": 20.191238295212784,
+    "rul_rmse_std": 3.1023753265494487,
+    "n": 3
+  },
+  {
+    "experiment": "soh_only",
+    "battery": "B0005",
+    "level": "L2",
+    "soh_rmse_mean": 0.032404292900391186,
+    "soh_rmse_std": 0.00983640359129124,
+    "rul_rmse_mean": 13.585418018747367,
+    "rul_rmse_std": 0.06582967027911832,
+    "n": 3
+  },
+  {
+    "experiment": "soh_only",
+    "battery": "B0006",
+    "level": "L2",
+    "soh_rmse_mean": 0.04198015461987031,
+    "soh_rmse_std": 0.0072940068265246105,
+    "rul_rmse_mean": 7.206332452336984,
+    "rul_rmse_std": 0.09881953894098357,
+    "n": 3
+  },
+  {
+    "experiment": "soh_only",
+    "battery": "B0007",
+    "level": "L2",
+    "soh_rmse_mean": 0.01957875695033629,
+    "soh_rmse_std": 0.002095313170234073,
+    "rul_rmse_mean": 17.164472547864403,
+    "rul_rmse_std": 0.10294004327671984,
+    "n": 3
+  }
+]

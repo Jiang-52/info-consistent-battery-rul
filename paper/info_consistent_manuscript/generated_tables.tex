@@ -1,0 +1,66 @@
+% auto-generated; do not edit by hand
+\begin{table}[htbp]
+\centering
+\caption{Information ladder RUL RMSE (cycles; mean$\pm$s.d.\ over three seeds). $T$ is the EOL cycle (SOH$\le 0.7$). L0 uses raw $t$. L1 uses $t/T^{\mathrm{prior}}$ from leave-target training cells. L1P is MLP only: SOH-matched sibling RUL.}
+\label{tab:ladder}
+\begin{tabular}{@{}llcccc@{}}
+\toprule
+Model & Cell & L2 & L1 & L1P & L0 \\
+\midrule
+\multicolumn{6}{l}{\textit{NASA}} \\
+mlp & B0005 & 23.58$\pm$3.85 & 23.62$\pm$3.89 & 5.06$\pm$0.23 & 11.77$\pm$0.15 \\
+mlp & B0006 & 10.62$\pm$1.69 & 10.52$\pm$1.70 & 5.45$\pm$0.45 & 6.46$\pm$0.99 \\
+mlp & B0007 & 20.19$\pm$3.80 & 20.16$\pm$3.70 & 8.66$\pm$0.10 & 11.22$\pm$2.68 \\
+patch-tf & B0005 & 19.17$\pm$2.43 & 19.17$\pm$2.42 & 2.84$\pm$0.89 & 10.21$\pm$1.21 \\
+patch-tf & B0006 & 10.11$\pm$0.23 & 10.11$\pm$0.23 & 3.10$\pm$0.19 & 4.63$\pm$0.33 \\
+patch-tf & B0007 & 15.25$\pm$2.27 & 15.26$\pm$2.27 & 3.62$\pm$0.73 & 10.84$\pm$2.08 \\
+\multicolumn{6}{l}{\textit{CALCE}} \\
+mlp & CS2\_35 & 2.73$\pm$1.38 & 3.00$\pm$2.15 & 18.19$\pm$9.40 & 33.42$\pm$2.78 \\
+mlp & CS2\_36 & 2.20$\pm$1.30 & 2.28$\pm$1.12 & 60.69$\pm$20.40 & 40.33$\pm$2.14 \\
+mlp & CS2\_37 & 2.72$\pm$1.00 & 2.86$\pm$1.11 & 15.68$\pm$0.97 & 45.28$\pm$2.45 \\
+mlp & CS2\_38 & 11.87$\pm$1.95 & 12.40$\pm$1.60 & 53.74$\pm$3.25 & 46.00$\pm$3.99 \\
+patch-tf & CS2\_35 & 24.85$\pm$12.20 & 32.00$\pm$4.12 & 13.25$\pm$0.63 & 23.80$\pm$3.12 \\
+patch-tf & CS2\_36 & 33.74$\pm$9.75 & 41.34$\pm$0.95 & 23.33$\pm$5.26 & 27.05$\pm$6.08 \\
+patch-tf & CS2\_37 & 34.65$\pm$7.25 & 35.74$\pm$0.78 & 24.51$\pm$6.81 & 26.11$\pm$10.75 \\
+patch-tf & CS2\_38 & 41.56$\pm$12.26 & 25.31$\pm$9.90 & 40.66$\pm$9.34 & 28.93$\pm$2.13 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Classical RUL baselines on chronological test windows with RUL$>0$. persist\_fade: SOH fade in the window (L0-valid). persist\_recursive: $\widehat{\mathrm{RUL}}_t=\max(\widehat{\mathrm{RUL}}_{t-1}-1,0)$ initialized by persist\_fade (no labels). persist\_hold uses true $\mathrm{RUL}_{t-1}$ and is an oracle walk, not an L0 BMS baseline. linear: least-squares SOH fit. Fade RMSE $>500$ is marked unstable.}
+\label{tab:persist}
+\begin{tabular}{@{}llcccc@{}}
+\toprule
+Corpus & Cell & fade & recursive & hold (oracle) & linear \\
+\midrule
+calce & CS2\_35 & unstable & 5.07 & 1.00 & 123.37 \\
+calce & CS2\_36 & unstable & 262.71 & 1.00 & 47.55 \\
+calce & CS2\_37 & unstable & 7.83 & 1.00 & 79.85 \\
+calce & CS2\_38 & unstable & 265.78 & 1.00 & 308.31 \\
+nasa & B0005 & 7.63 & 6.14 & 1.00 & 7.92 \\
+nasa & B0006 & 3.68 & 0.48 & 1.00 & 7.33 \\
+nasa & B0007 & 30.29 & 15.53 & 1.00 & 28.10 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Cell-level MLP RUL RMSE (mean over three seeds). The experimental unit is the cell ($n{=}7$). Paired Wilcoxon on $\mathrm{RMSE}_{L0}-\mathrm{RMSE}_{L2}$: $p=0.219$; on $\mathrm{RMSE}_{L1}-\mathrm{RMSE}_{L2}$: $p=0.156$. Signs mix across NASA (L0 easier) and CALCE (L0 harder); seed tests are not a substitute.}
+\label{tab:cellstat}
+\begin{tabular}{@{}llccc@{}}
+\toprule
+Corpus & Cell & L2 & L1 & L0 \\
+\midrule
+calce & CS2\_35 & 2.73 & 3.00 & 33.42 \\
+calce & CS2\_36 & 2.20 & 2.28 & 40.33 \\
+calce & CS2\_37 & 2.72 & 2.86 & 45.28 \\
+calce & CS2\_38 & 11.87 & 12.40 & 46.00 \\
+nasa & B0005 & 23.58 & 23.62 & 11.77 \\
+nasa & B0006 & 10.62 & 10.52 & 6.46 \\
+nasa & B0007 & 20.19 & 20.16 & 11.22 \\
+\bottomrule
+\end{tabular}
+\end{table}

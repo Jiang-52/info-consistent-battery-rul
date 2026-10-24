@@ -1,0 +1,974 @@
+[
+  {
+    "cell": "B0005",
+    "seed": 42,
+    "paper": {
+      "rul_rmse": 26.494441365316447,
+      "soh_rmse": 0.5516816159832779
+    },
+    "normalized": {
+      "rul_rmse": 23.972236129596016,
+      "soh_rmse": 0.05722688786858656
+    },
+    "soh_only": {
+      "soh_rmse": 0.014292650275472784
+    },
+    "grad_ratio": [
+      {
+        "epoch": 1,
+        "batch": 0,
+        "gnorm_soh": 20.273569107055664,
+        "gnorm_rul": 1329.137451171875,
+        "ratio_rul_over_soh": 65.56011150051053
+      },
+      {
+        "epoch": 1,
+        "batch": 1,
+        "gnorm_soh": 17.222532272338867,
+        "gnorm_rul": 1121.1932373046875,
+        "ratio_rul_over_soh": 65.10037081512326
+      },
+      {
+        "epoch": 1,
+        "batch": 2,
+        "gnorm_soh": 14.458358764648438,
+        "gnorm_rul": 842.5888061523438,
+        "ratio_rul_over_soh": 58.276933078498814
+      },
+      {
+        "epoch": 1,
+        "batch": 3,
+        "gnorm_soh": 13.122023582458496,
+        "gnorm_rul": 818.9132080078125,
+        "ratio_rul_over_soh": 62.40753972600191
+      },
+      {
+        "epoch": 1,
+        "batch": 4,
+        "gnorm_soh": 15.262843132019043,
+        "gnorm_rul": 998.7591552734375,
+        "ratio_rul_over_soh": 65.43729412891612
+      },
+      {
+        "epoch": 2,
+        "batch": 0,
+        "gnorm_soh": 11.982686996459961,
+        "gnorm_rul": 953.2394409179688,
+        "ratio_rul_over_soh": 79.55139287203144
+      },
+      {
+        "epoch": 2,
+        "batch": 1,
+        "gnorm_soh": 12.227554321289062,
+        "gnorm_rul": 965.89892578125,
+        "ratio_rul_over_soh": 78.99363195627352
+      },
+      {
+        "epoch": 2,
+        "batch": 2,
+        "gnorm_soh": 9.893326759338379,
+        "gnorm_rul": 1220.2940673828125,
+        "ratio_rul_over_soh": 123.3451696347711
+      },
+      {
+        "epoch": 2,
+        "batch": 3,
+        "gnorm_soh": 10.189624786376953,
+        "gnorm_rul": 1376.511962890625,
+        "ratio_rul_over_soh": 135.0895633302373
+      },
+      {
+        "epoch": 2,
+        "batch": 4,
+        "gnorm_soh": 6.99852180480957,
+        "gnorm_rul": 1621.9185791015625,
+        "ratio_rul_over_soh": 231.7515933131675
+      },
+      {
+        "epoch": 3,
+        "batch": 0,
+        "gnorm_soh": 13.26865005493164,
+        "gnorm_rul": 1457.2901611328125,
+        "ratio_rul_over_soh": 109.82957234531726
+      },
+      {
+        "epoch": 3,
+        "batch": 1,
+        "gnorm_soh": 18.234628677368164,
+        "gnorm_rul": 1850.1929931640625,
+        "ratio_rul_over_soh": 101.4658990813683
+      },
+      {
+        "epoch": 3,
+        "batch": 2,
+        "gnorm_soh": 29.124408721923828,
+        "gnorm_rul": 1875.055419921875,
+        "ratio_rul_over_soh": 64.38089225517562
+      },
+      {
+        "epoch": 3,
+        "batch": 3,
+        "gnorm_soh": 25.74149513244629,
+        "gnorm_rul": 1904.8994140625,
+        "ratio_rul_over_soh": 74.00111781624675
+      },
+      {
+        "epoch": 3,
+        "batch": 4,
+        "gnorm_soh": 18.144573211669922,
+        "gnorm_rul": 1902.52587890625,
+        "ratio_rul_over_soh": 104.85371337820254
+      }
+    ]
+  },
+  {
+    "cell": "B0005",
+    "seed": 43,
+    "paper": {
+      "rul_rmse": 25.037156307118394,
+      "soh_rmse": 0.9103101308679739
+    },
+    "normalized": {
+      "rul_rmse": 12.155440736682017,
+      "soh_rmse": 0.03099638870168608
+    },
+    "soh_only": {
+      "soh_rmse": 0.017206396979720782
+    },
+    "grad_ratio": [
+      {
+        "epoch": 1,
+        "batch": 0,
+        "gnorm_soh": 14.912568092346191,
+        "gnorm_rul": 958.2972412109375,
+        "ratio_rul_over_soh": 64.26104714336756
+      },
+      {
+        "epoch": 1,
+        "batch": 1,
+        "gnorm_soh": 15.338788032531738,
+        "gnorm_rul": 973.665771484375,
+        "ratio_rul_over_soh": 63.47736010298507
+      },
+      {
+        "epoch": 1,
+        "batch": 2,
+        "gnorm_soh": 16.228940963745117,
+        "gnorm_rul": 897.879150390625,
+        "ratio_rul_over_soh": 55.325800518743364
+      },
+      {
+        "epoch": 1,
+        "batch": 3,
+        "gnorm_soh": 12.624494552612305,
+        "gnorm_rul": 939.449951171875,
+        "ratio_rul_over_soh": 74.4148565518198
+      },
+      {
+        "epoch": 1,
+        "batch": 4,
+        "gnorm_soh": 14.543858528137207,
+        "gnorm_rul": 1215.3465576171875,
+        "ratio_rul_over_soh": 83.56424502245557
+      },
+      {
+        "epoch": 2,
+        "batch": 0,
+        "gnorm_soh": 17.8212833404541,
+        "gnorm_rul": 1053.3809814453125,
+        "ratio_rul_over_soh": 59.10803174618464
+      },
+      {
+        "epoch": 2,
+        "batch": 1,
+        "gnorm_soh": 21.27752685546875,
+        "gnorm_rul": 1369.2969970703125,
+        "ratio_rul_over_soh": 64.35414258299365
+      },
+      {
+        "epoch": 2,
+        "batch": 2,
+        "gnorm_soh": 23.386436462402344,
+        "gnorm_rul": 1238.058349609375,
+        "ratio_rul_over_soh": 52.939162048042824
+      },
+      {
+        "epoch": 2,
+        "batch": 3,
+        "gnorm_soh": 24.52720832824707,
+        "gnorm_rul": 1401.178466796875,
+        "ratio_rul_over_soh": 57.127515208617936
+      },
+      {
+        "epoch": 2,
+        "batch": 4,
+        "gnorm_soh": 22.72629737854004,
+        "gnorm_rul": 1351.3656005859375,
+        "ratio_rul_over_soh": 59.462638285372584
+      },
+      {
+        "epoch": 3,
+        "batch": 0,
+        "gnorm_soh": 19.13772201538086,
+        "gnorm_rul": 1211.138916015625,
+        "ratio_rul_over_soh": 63.28542733781172
+      },
+      {
+        "epoch": 3,
+        "batch": 1,
+        "gnorm_soh": 16.094186782836914,
+        "gnorm_rul": 2042.2215576171875,
+        "ratio_rul_over_soh": 126.8918762515571
+      },
+      {
+        "epoch": 3,
+        "batch": 2,
+        "gnorm_soh": 15.647531509399414,
+        "gnorm_rul": 1905.43359375,
+        "ratio_rul_over_soh": 121.77215253443734
+      },
+      {
+        "epoch": 3,
+        "batch": 3,
+        "gnorm_soh": 16.73436737060547,
+        "gnorm_rul": 2371.114013671875,
+        "ratio_rul_over_soh": 141.69128483678588
+      },
+      {
+        "epoch": 3,
+        "batch": 4,
+        "gnorm_soh": 20.025171279907227,
+        "gnorm_rul": 2117.892333984375,
+        "ratio_rul_over_soh": 105.76150907180589
+      }
+    ]
+  },
+  {
+    "cell": "B0005",
+    "seed": 44,
+    "paper": {
+      "rul_rmse": 19.21275643491313,
+      "soh_rmse": 0.6569084569321124
+    },
+    "normalized": {
+      "rul_rmse": 22.14632556798305,
+      "soh_rmse": 0.013454879568128457
+    },
+    "soh_only": {
+      "soh_rmse": 0.018291910524568047
+    },
+    "grad_ratio": [
+      {
+        "epoch": 1,
+        "batch": 0,
+        "gnorm_soh": 15.33534049987793,
+        "gnorm_rul": 2038.606689453125,
+        "ratio_rul_over_soh": 132.93520867497872
+      },
+      {
+        "epoch": 1,
+        "batch": 1,
+        "gnorm_soh": 11.885669708251953,
+        "gnorm_rul": 2384.89306640625,
+        "ratio_rul_over_soh": 200.65281342543722
+      },
+      {
+        "epoch": 1,
+        "batch": 2,
+        "gnorm_soh": 8.957497596740723,
+        "gnorm_rul": 1876.8885498046875,
+        "ratio_rul_over_soh": 209.53268806765996
+      },
+      {
+        "epoch": 1,
+        "batch": 3,
+        "gnorm_soh": 6.90257453918457,
+        "gnorm_rul": 2276.4052734375,
+        "ratio_rul_over_soh": 329.79075568322963
+      },
+      {
+        "epoch": 1,
+        "batch": 4,
+        "gnorm_soh": 5.87697696685791,
+        "gnorm_rul": 2794.39697265625,
+        "ratio_rul_over_soh": 475.4820358178564
+      },
+      {
+        "epoch": 2,
+        "batch": 0,
+        "gnorm_soh": 12.540712356567383,
+        "gnorm_rul": 2809.887939453125,
+        "ratio_rul_over_soh": 224.06127017032082
+      },
+      {
+        "epoch": 2,
+        "batch": 1,
+        "gnorm_soh": 15.807340621948242,
+        "gnorm_rul": 2616.025634765625,
+        "ratio_rul_over_soh": 165.49435463757357
+      },
+      {
+        "epoch": 2,
+        "batch": 2,
+        "gnorm_soh": 14.0360689163208,
+        "gnorm_rul": 2680.650390625,
+        "ratio_rul_over_soh": 190.9829886563185
+      },
+      {
+        "epoch": 2,
+        "batch": 3,
+        "gnorm_soh": 15.008331298828125,
+        "gnorm_rul": 2955.587158203125,
+        "ratio_rul_over_soh": 196.9297651654253
+      },
+      {
+        "epoch": 2,
+        "batch": 4,
+        "gnorm_soh": 20.85934066772461,
+        "gnorm_rul": 2949.5087890625,
+        "ratio_rul_over_soh": 141.399905013596
+      },
+      {
+        "epoch": 3,
+        "batch": 0,
+        "gnorm_soh": 16.37923240661621,
+        "gnorm_rul": 3398.966796875,
+        "ratio_rul_over_soh": 207.51685503296386
+      },
+      {
+        "epoch": 3,
+        "batch": 1,
+        "gnorm_soh": 16.053817749023438,
+        "gnorm_rul": 2450.494140625,
+        "ratio_rul_over_soh": 152.64245420838074
+      },
+      {
+        "epoch": 3,
+        "batch": 2,
+        "gnorm_soh": 16.314958572387695,
+        "gnorm_rul": 2756.936279296875,
+        "ratio_rul_over_soh": 168.98211951103946
+      },
+      {
+        "epoch": 3,
+        "batch": 3,
+        "gnorm_soh": 26.271574020385742,
+        "gnorm_rul": 3000.022216796875,
+        "ratio_rul_over_soh": 114.19270936979154
+      },
+      {
+        "epoch": 3,
+        "batch": 4,
+        "gnorm_soh": 29.559675216674805,
+        "gnorm_rul": 1270.21435546875,
+        "ratio_rul_over_soh": 42.971187814411905
+      }
+    ]
+  },
+  {
+    "cell": "B0006",
+    "seed": 42,
+    "paper": {
+      "rul_rmse": 10.721375957440141,
+      "soh_rmse": 0.8831903986792049
+    },
+    "normalized": {
+      "rul_rmse": 23.639375405463863,
+      "soh_rmse": 0.21506294388059544
+    },
+    "soh_only": {
+      "soh_rmse": 0.0336791760406183
+    },
+    "grad_ratio": [
+      {
+        "epoch": 1,
+        "batch": 0,
+        "gnorm_soh": 18.911376953125,
+        "gnorm_rul": 712.75048828125,
+        "ratio_rul_over_soh": 37.68897897006235
+      },
+      {
+        "epoch": 1,
+        "batch": 1,
+        "gnorm_soh": 15.722566604614258,
+        "gnorm_rul": 574.1466674804688,
+        "ratio_rul_over_soh": 36.51736271302983
+      },
+      {
+        "epoch": 1,
+        "batch": 2,
+        "gnorm_soh": 13.843037605285645,
+        "gnorm_rul": 356.244140625,
+        "ratio_rul_over_soh": 25.734535351473465
+      },
+      {
+        "epoch": 2,
+        "batch": 0,
+        "gnorm_soh": 13.105561256408691,
+        "gnorm_rul": 404.7367858886719,
+        "ratio_rul_over_soh": 30.88282737152927
+      },
+      {
+        "epoch": 2,
+        "batch": 1,
+        "gnorm_soh": 12.288537979125977,
+        "gnorm_rul": 422.2402648925781,
+        "ratio_rul_over_soh": 34.36049639182627
+      },
+      {
+        "epoch": 2,
+        "batch": 2,
+        "gnorm_soh": 10.546592712402344,
+        "gnorm_rul": 491.3598937988281,
+        "ratio_rul_over_soh": 46.58944430659675
+      },
+      {
+        "epoch": 3,
+        "batch": 0,
+        "gnorm_soh": 10.377264022827148,
+        "gnorm_rul": 535.314697265625,
+        "ratio_rul_over_soh": 51.58534042191456
+      },
+      {
+        "epoch": 3,
+        "batch": 1,
+        "gnorm_soh": 10.45950698852539,
+        "gnorm_rul": 616.6591796875,
+        "ratio_rul_over_soh": 58.95681128795137
+      },
+      {
+        "epoch": 3,
+        "batch": 2,
+        "gnorm_soh": 10.186904907226562,
+        "gnorm_rul": 619.3118286132812,
+        "ratio_rul_over_soh": 60.79489641391893
+      }
+    ]
+  },
+  {
+    "cell": "B0006",
+    "seed": 43,
+    "paper": {
+      "rul_rmse": 12.250105313943273,
+      "soh_rmse": 1.0637401275812592
+    },
+    "normalized": {
+      "rul_rmse": 14.83621220619499,
+      "soh_rmse": 0.20875110185156134
+    },
+    "soh_only": {
+      "soh_rmse": 0.025259193742957316
+    },
+    "grad_ratio": [
+      {
+        "epoch": 1,
+        "batch": 0,
+        "gnorm_soh": 13.732795715332031,
+        "gnorm_rul": 485.6495056152344,
+        "ratio_rul_over_soh": 35.36421247954844
+      },
+      {
+        "epoch": 1,
+        "batch": 1,
+        "gnorm_soh": 13.790265083312988,
+        "gnorm_rul": 492.33953857421875,
+        "ratio_rul_over_soh": 35.701963348766796
+      },
+      {
+        "epoch": 1,
+        "batch": 2,
+        "gnorm_soh": 20.075973510742188,
+        "gnorm_rul": 659.060302734375,
+        "ratio_rul_over_soh": 32.82831103466675
+      },
+      {
+        "epoch": 2,
+        "batch": 0,
+        "gnorm_soh": 11.31216812133789,
+        "gnorm_rul": 470.7799987792969,
+        "ratio_rul_over_soh": 41.61713243027878
+      },
+      {
+        "epoch": 2,
+        "batch": 1,
+        "gnorm_soh": 14.583477973937988,
+        "gnorm_rul": 597.464111328125,
+        "ratio_rul_over_soh": 40.96856129901578
+      },
+      {
+        "epoch": 2,
+        "batch": 2,
+        "gnorm_soh": 20.36219596862793,
+        "gnorm_rul": 555.625,
+        "ratio_rul_over_soh": 27.28708636612929
+      },
+      {
+        "epoch": 3,
+        "batch": 0,
+        "gnorm_soh": 19.385135650634766,
+        "gnorm_rul": 616.9794921875,
+        "ratio_rul_over_soh": 31.827452915827134
+      },
+      {
+        "epoch": 3,
+        "batch": 1,
+        "gnorm_soh": 27.237810134887695,
+        "gnorm_rul": 648.989013671875,
+        "ratio_rul_over_soh": 23.826769129307277
+      },
+      {
+        "epoch": 3,
+        "batch": 2,
+        "gnorm_soh": 19.186309814453125,
+        "gnorm_rul": 477.70361328125,
+        "ratio_rul_over_soh": 24.898149665100995
+      }
+    ]
+  },
+  {
+    "cell": "B0006",
+    "seed": 44,
+    "paper": {
+      "rul_rmse": 8.873756247084126,
+      "soh_rmse": 0.4890693499272765
+    },
+    "normalized": {
+      "rul_rmse": 7.78911368203863,
+      "soh_rmse": 0.10744341722568823
+    },
+    "soh_only": {
+      "soh_rmse": 0.034059063001729235
+    },
+    "grad_ratio": [
+      {
+        "epoch": 1,
+        "batch": 0,
+        "gnorm_soh": 14.133435249328613,
+        "gnorm_rul": 999.8695068359375,
+        "ratio_rul_over_soh": 70.74497382958857
+      },
+      {
+        "epoch": 1,
+        "batch": 1,
+        "gnorm_soh": 10.599507331848145,
+        "gnorm_rul": 1132.18310546875,
+        "ratio_rul_over_soh": 106.81469147786711
+      },
+      {
+        "epoch": 1,
+        "batch": 2,
+        "gnorm_soh": 6.8755388259887695,
+        "gnorm_rul": 881.06982421875,
+        "ratio_rul_over_soh": 128.14556742642546
+      },
+      {
+        "epoch": 2,
+        "batch": 0,
+        "gnorm_soh": 5.30921745300293,
+        "gnorm_rul": 991.156982421875,
+        "ratio_rul_over_soh": 186.68607778746562
+      },
+      {
+        "epoch": 2,
+        "batch": 1,
+        "gnorm_soh": 5.226315975189209,
+        "gnorm_rul": 1116.9432373046875,
+        "ratio_rul_over_soh": 213.71521404506177
+      },
+      {
+        "epoch": 2,
+        "batch": 2,
+        "gnorm_soh": 12.05426025390625,
+        "gnorm_rul": 1415.8988037109375,
+        "ratio_rul_over_soh": 117.46044750046836
+      },
+      {
+        "epoch": 3,
+        "batch": 0,
+        "gnorm_soh": 10.613506317138672,
+        "gnorm_rul": 1014.853271484375,
+        "ratio_rul_over_soh": 95.61903871914521
+      },
+      {
+        "epoch": 3,
+        "batch": 1,
+        "gnorm_soh": 17.369565963745117,
+        "gnorm_rul": 961.8185424804688,
+        "ratio_rul_over_soh": 55.37378104254526
+      },
+      {
+        "epoch": 3,
+        "batch": 2,
+        "gnorm_soh": 15.304364204406738,
+        "gnorm_rul": 1318.7955322265625,
+        "ratio_rul_over_soh": 86.17120676250167
+      }
+    ]
+  },
+  {
+    "cell": "B0007",
+    "seed": 42,
+    "paper": {
+      "rul_rmse": 23.06224742701077,
+      "soh_rmse": 0.4011265985389905
+    },
+    "normalized": {
+      "rul_rmse": 26.584038637016913,
+      "soh_rmse": 0.03718930969043677
+    },
+    "soh_only": {
+      "soh_rmse": 0.020271219365688535
+    },
+    "grad_ratio": [
+      {
+        "epoch": 1,
+        "batch": 0,
+        "gnorm_soh": 20.423173904418945,
+        "gnorm_rul": 1376.5546875,
+        "ratio_rul_over_soh": 67.40160437071712
+      },
+      {
+        "epoch": 1,
+        "batch": 1,
+        "gnorm_soh": 17.435169219970703,
+        "gnorm_rul": 1242.904052734375,
+        "ratio_rul_over_soh": 71.28718035674238
+      },
+      {
+        "epoch": 1,
+        "batch": 2,
+        "gnorm_soh": 14.471882820129395,
+        "gnorm_rul": 954.4561767578125,
+        "ratio_rul_over_soh": 65.95245336220036
+      },
+      {
+        "epoch": 1,
+        "batch": 3,
+        "gnorm_soh": 13.198348045349121,
+        "gnorm_rul": 897.1033935546875,
+        "ratio_rul_over_soh": 67.97088472529045
+      },
+      {
+        "epoch": 1,
+        "batch": 4,
+        "gnorm_soh": 16.673561096191406,
+        "gnorm_rul": 1017.0093994140625,
+        "ratio_rul_over_soh": 60.99533228365768
+      },
+      {
+        "epoch": 2,
+        "batch": 0,
+        "gnorm_soh": 15.601284980773926,
+        "gnorm_rul": 1171.7083740234375,
+        "ratio_rul_over_soh": 75.10332485224004
+      },
+      {
+        "epoch": 2,
+        "batch": 1,
+        "gnorm_soh": 12.4608736038208,
+        "gnorm_rul": 1153.2166748046875,
+        "ratio_rul_over_soh": 92.54701648294416
+      },
+      {
+        "epoch": 2,
+        "batch": 2,
+        "gnorm_soh": 11.278464317321777,
+        "gnorm_rul": 1410.49560546875,
+        "ratio_rul_over_soh": 125.06096271479724
+      },
+      {
+        "epoch": 2,
+        "batch": 3,
+        "gnorm_soh": 10.049965858459473,
+        "gnorm_rul": 1294.2940673828125,
+        "ratio_rul_over_soh": 128.7859168489962
+      },
+      {
+        "epoch": 2,
+        "batch": 4,
+        "gnorm_soh": 9.9695405960083,
+        "gnorm_rul": 1651.318603515625,
+        "ratio_rul_over_soh": 165.63637888959454
+      },
+      {
+        "epoch": 3,
+        "batch": 0,
+        "gnorm_soh": 10.387784957885742,
+        "gnorm_rul": 1571.94482421875,
+        "ratio_rul_over_soh": 151.3262770255395
+      },
+      {
+        "epoch": 3,
+        "batch": 1,
+        "gnorm_soh": 17.941274642944336,
+        "gnorm_rul": 2009.840087890625,
+        "ratio_rul_over_soh": 112.02326077099676
+      },
+      {
+        "epoch": 3,
+        "batch": 2,
+        "gnorm_soh": 21.635713577270508,
+        "gnorm_rul": 2100.01953125,
+        "ratio_rul_over_soh": 97.0626424568767
+      },
+      {
+        "epoch": 3,
+        "batch": 3,
+        "gnorm_soh": 22.89346694946289,
+        "gnorm_rul": 1825.0780029296875,
+        "ratio_rul_over_soh": 79.72047252425898
+      },
+      {
+        "epoch": 3,
+        "batch": 4,
+        "gnorm_soh": 28.035112380981445,
+        "gnorm_rul": 2088.373779296875,
+        "ratio_rul_over_soh": 74.49136464719838
+      }
+    ]
+  },
+  {
+    "cell": "B0007",
+    "seed": 43,
+    "paper": {
+      "rul_rmse": 21.628899043740304,
+      "soh_rmse": 0.6179174525498647
+    },
+    "normalized": {
+      "rul_rmse": 20.028452091408578,
+      "soh_rmse": 0.010513693475494704
+    },
+    "soh_only": {
+      "soh_rmse": 0.021727696633506714
+    },
+    "grad_ratio": [
+      {
+        "epoch": 1,
+        "batch": 0,
+        "gnorm_soh": 14.833001136779785,
+        "gnorm_rul": 911.60302734375,
+        "ratio_rul_over_soh": 61.45776022920586
+      },
+      {
+        "epoch": 1,
+        "batch": 1,
+        "gnorm_soh": 15.005863189697266,
+        "gnorm_rul": 1103.827880859375,
+        "ratio_rul_over_soh": 73.55977239731479
+      },
+      {
+        "epoch": 1,
+        "batch": 2,
+        "gnorm_soh": 16.464466094970703,
+        "gnorm_rul": 932.2269287109375,
+        "ratio_rul_over_soh": 56.62053803224746
+      },
+      {
+        "epoch": 1,
+        "batch": 3,
+        "gnorm_soh": 13.020232200622559,
+        "gnorm_rul": 1099.7052001953125,
+        "ratio_rul_over_soh": 84.46125869727042
+      },
+      {
+        "epoch": 1,
+        "batch": 4,
+        "gnorm_soh": 14.17566967010498,
+        "gnorm_rul": 1215.131103515625,
+        "ratio_rul_over_soh": 85.71948499041359
+      },
+      {
+        "epoch": 2,
+        "batch": 0,
+        "gnorm_soh": 16.407915115356445,
+        "gnorm_rul": 1280.18115234375,
+        "ratio_rul_over_soh": 78.0221706014073
+      },
+      {
+        "epoch": 2,
+        "batch": 1,
+        "gnorm_soh": 18.452770233154297,
+        "gnorm_rul": 1334.0518798828125,
+        "ratio_rul_over_soh": 72.29547992126986
+      },
+      {
+        "epoch": 2,
+        "batch": 2,
+        "gnorm_soh": 22.086153030395508,
+        "gnorm_rul": 1475.979736328125,
+        "ratio_rul_over_soh": 66.8282853196229
+      },
+      {
+        "epoch": 2,
+        "batch": 3,
+        "gnorm_soh": 22.5752010345459,
+        "gnorm_rul": 1518.2791748046875,
+        "ratio_rul_over_soh": 67.25429255231559
+      },
+      {
+        "epoch": 2,
+        "batch": 4,
+        "gnorm_soh": 19.39678192138672,
+        "gnorm_rul": 1700.0950927734375,
+        "ratio_rul_over_soh": 87.64830679974433
+      },
+      {
+        "epoch": 3,
+        "batch": 0,
+        "gnorm_soh": 19.230424880981445,
+        "gnorm_rul": 1722.6177978515625,
+        "ratio_rul_over_soh": 89.57772948403243
+      },
+      {
+        "epoch": 3,
+        "batch": 1,
+        "gnorm_soh": 14.03803539276123,
+        "gnorm_rul": 2345.709716796875,
+        "ratio_rul_over_soh": 167.09672337814803
+      },
+      {
+        "epoch": 3,
+        "batch": 2,
+        "gnorm_soh": 19.484790802001953,
+        "gnorm_rul": 2006.30712890625,
+        "ratio_rul_over_soh": 102.96785576471846
+      },
+      {
+        "epoch": 3,
+        "batch": 3,
+        "gnorm_soh": 22.73213768005371,
+        "gnorm_rul": 1973.6951904296875,
+        "ratio_rul_over_soh": 86.82400301320997
+      },
+      {
+        "epoch": 3,
+        "batch": 4,
+        "gnorm_soh": 21.638090133666992,
+        "gnorm_rul": 2997.60546875,
+        "ratio_rul_over_soh": 138.5337361214697
+      }
+    ]
+  },
+  {
+    "cell": "B0007",
+    "seed": 44,
+    "paper": {
+      "rul_rmse": 15.882568414887272,
+      "soh_rmse": 0.6683152633630202
+    },
+    "normalized": {
+      "rul_rmse": 26.921813089489692,
+      "soh_rmse": 0.03158607440791381
+    },
+    "soh_only": {
+      "soh_rmse": 0.016737354851813623
+    },
+    "grad_ratio": [
+      {
+        "epoch": 1,
+        "batch": 0,
+        "gnorm_soh": 15.364895820617676,
+        "gnorm_rul": 1953.333251953125,
+        "ratio_rul_over_soh": 127.12961251139808
+      },
+      {
+        "epoch": 1,
+        "batch": 1,
+        "gnorm_soh": 11.559653282165527,
+        "gnorm_rul": 2782.883544921875,
+        "ratio_rul_over_soh": 240.74109118959177
+      },
+      {
+        "epoch": 1,
+        "batch": 2,
+        "gnorm_soh": 8.363248825073242,
+        "gnorm_rul": 2182.224853515625,
+        "ratio_rul_over_soh": 260.9302795073198
+      },
+      {
+        "epoch": 1,
+        "batch": 3,
+        "gnorm_soh": 6.370273590087891,
+        "gnorm_rul": 2573.0986328125,
+        "ratio_rul_over_soh": 403.92278234583625
+      },
+      {
+        "epoch": 1,
+        "batch": 4,
+        "gnorm_soh": 10.688096046447754,
+        "gnorm_rul": 2678.783203125,
+        "ratio_rul_over_soh": 250.6324037025573
+      },
+      {
+        "epoch": 2,
+        "batch": 0,
+        "gnorm_soh": 7.777770519256592,
+        "gnorm_rul": 2866.92333984375,
+        "ratio_rul_over_soh": 368.6047734046252
+      },
+      {
+        "epoch": 2,
+        "batch": 1,
+        "gnorm_soh": 17.83746337890625,
+        "gnorm_rul": 2533.860595703125,
+        "ratio_rul_over_soh": 142.05274269544122
+      },
+      {
+        "epoch": 2,
+        "batch": 2,
+        "gnorm_soh": 16.557464599609375,
+        "gnorm_rul": 3592.3857421875,
+        "ratio_rul_over_soh": 216.96472431366405
+      },
+      {
+        "epoch": 2,
+        "batch": 3,
+        "gnorm_soh": 17.74021339416504,
+        "gnorm_rul": 3268.028564453125,
+        "ratio_rul_over_soh": 184.2158542201086
+      },
+      {
+        "epoch": 2,
+        "batch": 4,
+        "gnorm_soh": 19.492948532104492,
+        "gnorm_rul": 3460.37841796875,
+        "ratio_rul_over_soh": 177.51949697448677
+      },
+      {
+        "epoch": 3,
+        "batch": 0,
+        "gnorm_soh": 17.419309616088867,
+        "gnorm_rul": 3255.431396484375,
+        "ratio_rul_over_soh": 186.88636164303463
+      },
+      {
+        "epoch": 3,
+        "batch": 1,
+        "gnorm_soh": 23.269250869750977,
+        "gnorm_rul": 3436.78515625,
+        "ratio_rul_over_soh": 147.6964245857039
+      },
+      {
+        "epoch": 3,
+        "batch": 2,
+        "gnorm_soh": 23.380107879638672,
+        "gnorm_rul": 3440.62109375,
+        "ratio_rul_over_soh": 147.16018897185572
+      },
+      {
+        "epoch": 3,
+        "batch": 3,
+        "gnorm_soh": 23.826906204223633,
+        "gnorm_rul": 3014.798095703125,
+        "ratio_rul_over_soh": 126.52914607808849
+      },
+      {
+        "epoch": 3,
+        "batch": 4,
+        "gnorm_soh": 21.81715965270996,
+        "gnorm_rul": 2133.869140625,
+        "ratio_rul_over_soh": 97.80691779280018
+      }
+    ]
+  }
+]

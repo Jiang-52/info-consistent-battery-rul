@@ -1,0 +1,97 @@
+{
+  "nasa:B0005": {
+    "siblings": {
+      "B0006": 106.0,
+      "B0007": 167.0
+    },
+    "t_med": 136.5,
+    "t_med_all_illegal": 161.0,
+    "t_min": 106.0,
+    "t_max": 167.0,
+    "t_target": 161.0,
+    "t_record": 167.0,
+    "used_target_in_prior": false
+  },
+  "nasa:B0006": {
+    "siblings": {
+      "B0005": 161.0,
+      "B0007": 167.0
+    },
+    "t_med": 164.0,
+    "t_med_all_illegal": 161.0,
+    "t_min": 161.0,
+    "t_max": 167.0,
+    "t_target": 106.0,
+    "t_record": 167.0,
+    "used_target_in_prior": false
+  },
+  "nasa:B0007": {
+    "siblings": {
+      "B0005": 161.0,
+      "B0006": 106.0
+    },
+    "t_med": 133.5,
+    "t_med_all_illegal": 161.0,
+    "t_min": 106.0,
+    "t_max": 161.0,
+    "t_target": 167.0,
+    "t_record": 167.0,
+    "used_target_in_prior": false
+  },
+  "calce:CS2_35": {
+    "siblings": {
+      "CS2_36": 418.0,
+      "CS2_37": 410.0,
+      "CS2_38": 388.0
+    },
+    "t_med": 410.0,
+    "t_med_all_illegal": 399.0,
+    "t_min": 388.0,
+    "t_max": 418.0,
+    "t_target": 349.0,
+    "t_record": 881.0,
+    "used_target_in_prior": false
+  },
+  "calce:CS2_36": {
+    "siblings": {
+      "CS2_35": 349.0,
+      "CS2_37": 410.0,
+      "CS2_38": 388.0
+    },
+    "t_med": 388.0,
+    "t_med_all_illegal": 399.0,
+    "t_min": 349.0,
+    "t_max": 410.0,
+    "t_target": 418.0,
+    "t_record": 935.0,
+    "used_target_in_prior": false
+  },
+  "calce:CS2_37": {
+    "siblings": {
+      "CS2_35": 349.0,
+      "CS2_36": 418.0,
+      "CS2_38": 388.0
+    },
+    "t_med": 388.0,
+    "t_med_all_illegal": 399.0,
+    "t_min": 349.0,
+    "t_max": 418.0,
+    "t_target": 410.0,
+    "t_record": 971.0,
+    "used_target_in_prior": false
+  },
+  "calce:CS2_38": {
+    "siblings": {
+      "CS2_35": 349.0,
+      "CS2_36": 418.0,
+      "CS2_37": 410.0
+    },
+    "t_med": 410.0,
+    "t_med_all_illegal": 399.0,
+    "t_min": 349.0,
+    "t_max": 418.0,
+    "t_target": 388.0,
+    "t_record": 995.0,
+    "used_target_in_prior": false
+  }
+}
