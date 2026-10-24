@@ -73,3 +73,8 @@ outputs/*
 
 # other paper lines under paper/ (optional local)
 paper/ei_manuscript/
+
+# local GitHub PAT (never commit)
+.github_token
+.github_token.txt
+

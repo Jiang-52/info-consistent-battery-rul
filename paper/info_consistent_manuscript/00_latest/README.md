@@ -1,4 +1,4 @@
-# 最新交付物（看这里）
+﻿# 最新交付物（看这里）
 
 更新时间：2026-10-24（老师摘要/引言 + 健康双头默认 + 实验独立 + git）
 
@@ -35,4 +35,6 @@ Copy-Item _build\main_zh.pdf 00_latest\ZH_main.pdf
 ## 代码 / 数据可用性（投稿栏）
 
 - 本地 git：`F:\科研工作区\tcn_attention`（已 init）
-- GitHub 公开仓库 URL / Zenodo DOI：首次 `git push` 或 Zenodo deposit 后填入此处与 Data Availability。
+- GitHub：https://github.com/Jiang-52/info-consistent-battery-rul
+- Zenodo DOI：待首次 release 存档后填入。
+
