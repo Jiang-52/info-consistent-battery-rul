@@ -66,3 +66,9 @@ outputs/*
 .github_token
 .github_token.txt
 
+
+# literature-search scratch (not metrics)
+**/ref_batch*.json
+**/ref_crossref_search.json
+**/ref_metadata.json
+
