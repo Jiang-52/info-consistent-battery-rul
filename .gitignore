@@ -62,3 +62,18 @@ outputs/*
 .github_token
 .github_token.txt
 _tmp_*.py
+
+# local-only legacy runners (not part of public reproduction set)
+scripts/train_*.py
+scripts/run_ei_*.py
+scripts/run_week*.py
+scripts/run_final*.py
+scripts/run_enrichment*.py
+scripts/run_cycle_norm*.py
+scripts/run_info_levels.py
+scripts/fetch_info_paper_refs*.py
+scripts/fill_info_paper_tables.py
+scripts/merge_severson_into_info_tables.py
+scripts/generate_architecture_figure.py
+scripts/search_info_paper_refs.py
+scripts/_tmp_*.py
