@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
-"""
-Priority-1 revision controls for the information-consistent RUL paper.
+"""Extra controls for the information-level protocol.
 
-1) Cycle-channel scale control (other 5 channels fixed): t, t/T_prior, t/T_target, t/1000
-2) L1P SOH-matching distance diagnostics
-3) Protocol A train/test cycle-channel ranges
-4) L2+SOH channel control (append SOH_t to L2)
-5) Dual-head vs SOH-only (short epochs)
+- cycle channel scale: t, t/T_prior, t/T_target, t/1000
+- L1P SOH matching distances
+- Protocol A train/test channel ranges
+- L2 + SOH_t channel
+- dual-head vs SOH-only (short run)
 
-Outputs: outputs/revision_controls/
+Out: outputs/revision_controls/
 """
 from __future__ import annotations
 
@@ -26,7 +25,27 @@ from torch.utils.data import DataLoader, TensorDataset
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from scripts.train_rul import set_seed, _eval_rul_rmse
+
+def set_seed(seed: int = 42) -> None:
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
+
+
+@torch.no_grad()
+def _eval_rul_rmse(model: nn.Module, loader: DataLoader, device: torch.device) -> float:
+    model.eval()
+    preds, trues = [], []
+    for xb, _, yb_rul in loader:
+        xb = xb.to(device)
+        _, pred_rul = model(xb, target=None, teacher_forcing_ratio=0.0)
+        preds.append(pred_rul.cpu().numpy())
+        trues.append(yb_rul.numpy())
+    pred = np.concatenate(preds).reshape(-1)
+    true = np.concatenate(trues).reshape(-1)
+    return float(np.sqrt(np.mean((pred - true) ** 2)))
+
 from src.data.cycle_features import (
     INFO_L0,
     INFO_L1,

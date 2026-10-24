@@ -1,4 +1,4 @@
-"""Classical non-NN RUL baselines for matched-protocol comparison."""
+"""Non-NN RUL baselines (persistence / linear)."""
 
 from __future__ import annotations
 

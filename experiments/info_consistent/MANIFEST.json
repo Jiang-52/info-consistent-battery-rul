@@ -1,31 +1,10 @@
 {
-  "root": "F:\\科研工作区\\tcn_attention\\outputs",
-  "adopted": [
-    {
-      "name": "info_levels_severson_loco",
-      "path": "F:\\科研工作区\\tcn_attention\\outputs\\info_levels_severson_loco",
-      "link": "F:\\科研工作区\\tcn_attention\\experiments\\info_consistent\\info_levels_severson_loco"
-    },
-    {
-      "name": "info_levels_v2",
-      "path": "F:\\科研工作区\\tcn_attention\\outputs\\info_levels_v2",
-      "link": "F:\\科研工作区\\tcn_attention\\experiments\\info_consistent\\info_levels_v2"
-    },
-    {
-      "name": "l1p_mechanism",
-      "path": "F:\\科研工作区\\tcn_attention\\outputs\\l1p_mechanism",
-      "link": "F:\\科研工作区\\tcn_attention\\experiments\\info_consistent\\l1p_mechanism"
-    },
-    {
-      "name": "revision_controls",
-      "path": "F:\\科研工作区\\tcn_attention\\outputs\\revision_controls",
-      "link": "F:\\科研工作区\\tcn_attention\\experiments\\info_consistent\\revision_controls"
-    },
-    {
-      "name": "info_levels_severson",
-      "path": "F:\\科研工作区\\tcn_attention\\outputs\\info_levels_severson",
-      "link": "F:\\科研工作区\\tcn_attention\\experiments\\info_consistent\\info_levels_severson"
-    }
-  ],
-  "reference_only": []
+  "outputs_root": "outputs",
+  "folders": [
+    "info_levels_severson_loco",
+    "info_levels_v2",
+    "l1p_mechanism",
+    "revision_controls",
+    "info_levels_severson"
+  ]
 }

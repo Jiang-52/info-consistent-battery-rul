@@ -10,7 +10,7 @@ from pathlib import Path
 import requests
 from tqdm import tqdm
 
-# Mirrors used by open-source battery SOH projects
+# mirrors
 NASA_ZIP_URLS = [
     "https://phm-datasets.s3.amazonaws.com/NASA/5.+Battery+Data+Set.zip",
     "https://phm-datasets.s3.amazonaws.com/NASA/4.+Battery.zip",

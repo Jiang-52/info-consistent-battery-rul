@@ -1,4 +1,4 @@
-"""Lite Patch Transformer for multi-feature battery prognostics."""
+"""Small patch Transformer for multi-feature windows."""
 
 from __future__ import annotations
 

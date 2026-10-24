@@ -1,68 +1,65 @@
-# Information-consistent battery RUL evaluation
+# info-consistent-battery-rul
 
-Code and adopted experiment outputs for reproducing the information-level RUL ranking protocol (L0 / L1 / L1P / L2; fit Protocols A and B) with matched MLP and Patch-TF instruments.
+Reproduce the information-level RUL protocol used in our evaluation study:
 
-## Layout
+- levels: L0 (raw `t`), L1 (leave-target prior `t/T_prior`), L1P (SOH-matched sibling prior), L2 (`t/T_target`)
+- fit: Protocol A (within-cell) / Protocol B (leave-target)
 
-```
-scripts/                      # reproduction entry points
-src/                          # models and utilities
-tests/                        # small unit checks
-outputs/                      # adopted result JSON / MD (see table)
-experiments/info_consistent/  # same adopted runs (convenience mounts)
-```
+Models are MLP and Patch-TF under a shared training budget.
 
-| Path | Role |
+## Contents
+
+| Path | What |
 |------|------|
-| `outputs/info_levels_severson_loco/` | Severson Protocol B ladder (\(n=24\)) |
-| `outputs/info_levels_v2/` | NASA + CALCE Protocol A ladder |
-| `outputs/l1p_mechanism/` | L1P mechanism windows + dual-head SOH control |
-| `outputs/revision_controls/` | Scale / support controls |
-| `outputs/info_levels_severson/` | Severson Protocol A same-window check |
+| `scripts/` | download + run scripts |
+| `src/` | models / baselines / utils |
+| `tests/` | small checks |
+| `outputs/` | saved metrics for the reported runs |
+| `experiments/info_consistent/` | same result folders (junctions / copies) |
+
+Result folders:
+
+- `outputs/info_levels_severson_loco` — Severson, Protocol B, n=24
+- `outputs/info_levels_v2` — NASA + CALCE, Protocol A
+- `outputs/l1p_mechanism` — per-window L1P/L2 diagnostics
+- `outputs/revision_controls` — scale / support checks
+- `outputs/info_levels_severson` — Severson, Protocol A
 
 ## Setup
 
 ```powershell
-cd <repo-root>
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
-py -m pip install -r requirements.txt
-py -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+pip install -r requirements.txt
+pip install torch --index-url https://download.pytorch.org/whl/cpu
 ```
 
-### Data (not in this repo)
-
-Put public corpora under `data/` (gitignored):
-
-- NASA PCoE B0005–B0007: `py scripts/download_nasa.py`
-- CALCE CS2 cells used in Protocol A
-- Severson / MATR files for Protocol B
-
-Scored Severson cell ids and lifetimes: `outputs/info_levels_severson/selection.json`.
-
-## Reproduce
-
-Defaults: \(W{=}50\), \(H{=}5\), seeds `{42,43,44}`, 80 epochs unless noted.
+Data (not included): put NASA / CALCE / Severson files under `data/`.
 
 ```powershell
-# NASA + CALCE, Protocol A
+py scripts/download_nasa.py
+# Severson: py scripts/download_severson.py   # if you need the batch files
+```
+
+Cell list for the Severson subset: `outputs/info_levels_severson/selection.json`.
+
+## Run
+
+Default: window=50, horizon=5, seeds 42/43/44, epochs=80.
+
+```powershell
 py scripts/run_info_levels_v2.py --epochs 80 --fit-protocol within_cell --corpus nasa,calce
 
-# Severson Protocol B, stratified n=24
 py scripts/run_info_levels_v2.py --epochs 80 --fit-protocol leave_target --corpus severson --severson-n 24 --out-dir outputs/info_levels_severson_loco
 
-# L1P mechanism + SOH-head control (NASA Protocol A)
 py scripts/run_l1p_mechanism.py --epochs 80
 
-# Scale / channel-support controls
 py scripts/run_revision_controls.py --epochs 40
 ```
 
-Quick checks:
+Smoke:
 
 ```powershell
 py scripts/run_info_levels_v2.py --smoke --epochs 2
-py -m pytest tests/ -q
+pytest tests/ -q
 ```
-
-Compare regenerated metrics against the JSON/MD already under `outputs/`.

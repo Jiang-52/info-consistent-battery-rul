@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-"""Cheap protocol diagnostics: cycle-channel vs RUL on chronological test.
+"""Channel diagnostics on chronological test windows (no NN training).
 
-No neural retraining. Quantifies (i) same-cell countdown under L0,
-(ii) L1 vs L2 channel collinearity, (iii) linear readout RMSE vs L0-drop.
+Checks L0 countdown, L1/L2 collinearity, and a linear readout vs L0.
 """
 
 from __future__ import annotations

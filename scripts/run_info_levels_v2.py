@@ -1,26 +1,21 @@
 #!/usr/bin/env python3
-"""Information-consistent RUL/SOH evaluation, advisor-revision protocol.
+"""Run information-level RUL/SOH experiments.
 
-Lifetime T := first cycle with SOH <= 0.7 (EOL), not last recorded cycle.
-That definition makes NASA L1 != L2 (EOL = 106/161/167 for B0006/5/7).
+T = first cycle with SOH <= 0.7 (not record length).
+On NASA this separates L1 from L2 (EOL 106/161/167 for B0006/5/7).
 
-L2: cycle_channel = t / T_target
-L1: cycle_channel = t / median(T_siblings)  (leave-target-out prior)
-L0: cycle_channel = raw t  (no lifetime encoding; optional L0_clock = t/1000)
+Cycle channel:
+  L2 = t / T_target
+  L1 = t / median(T of other cells)
+  L0 = raw t  (optional L0_clock = t/1000)
 
-Fit protocols:
-  within_cell  — chronological 80/20 on the target cell (Protocol A).
-                 Training labels RUL=T_target-t encode that cell's lifetime.
-  leave_target — train/val on sibling cells only; same target late-20% test
-                 windows (Protocol B). T_target never enters fitting.
+Fit:
+  within_cell  = Protocol A, chronological 80/20 on the target cell
+  leave_target = Protocol B, train on other cells only
 
-Persistence variants:
-  persist_fade  — constant SOH fade in the window (legacy "persistence")
-  persist_hold  — RUL_hat_t = RUL_{t-1}
-  persist_mean  — expanding mean of historical RUL
-  linear        — least-squares SOH fit in the window
+Baselines: persist_fade, persist_hold, persist_mean, linear.
 
-Outputs: outputs/info_levels_v2/
+Default out dir: outputs/info_levels_v2/
 """
 
 from __future__ import annotations

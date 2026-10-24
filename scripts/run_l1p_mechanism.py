@@ -1,11 +1,10 @@
+﻿#!/usr/bin/env python3
+"""L1P vs L2 window diagnostics and dual-head SOH loss check.
 
-#!/usr/bin/env python3
-"""Mechanism diagnostics for Finding 2 (L1P can beat L2) and the dual-head SOH anomaly.
-
-Outputs (outputs/l1p_mechanism/):
-  windows.json        per-window predictions, channel values, SOH, matching distance
-  summary.json        error structure by SOH bin / channel-support bin
-  soh_head.json       gradient-norm ratio + loss-normalised dual-head control
+Writes to outputs/l1p_mechanism/:
+  windows.json   predictions, channel, SOH, matching distance
+  summary.json   error by SOH / channel bins
+  soh_head.json  grad-norm ratio and RUL/T loss control
   report.md
 """
 from __future__ import annotations

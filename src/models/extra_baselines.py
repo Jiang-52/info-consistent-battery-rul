@@ -1,4 +1,4 @@
-"""Additional RUL baselines: MLP, GRU, Vanilla Transformer, direct dual-heads."""
+"""MLP / GRU / Transformer dual-head baselines."""
 
 from __future__ import annotations
 
@@ -10,7 +10,7 @@ from src.models.tcn import TemporalBlock
 
 
 class DualHeads(nn.Module):
-    """Shared SOH multi-step + scalar RUL heads (matched with Patch-TF)."""
+    """Shared SOH multi-step head and scalar RUL head."""
 
     def __init__(self, d_model: int, horizon: int, dropout: float = 0.1):
         super().__init__()
@@ -32,7 +32,7 @@ class DualHeads(nn.Module):
 
 
 class MLPDualHead(nn.Module):
-    """Flatten window → MLP → dual heads (architecture lower bound)."""
+    """Flattened-window MLP with dual heads."""
 
     def __init__(
         self,

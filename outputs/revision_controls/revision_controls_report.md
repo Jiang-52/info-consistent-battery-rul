@@ -1,4 +1,4 @@
-# Revision controls
+# Controls
 
 ## L1P matching distance
 

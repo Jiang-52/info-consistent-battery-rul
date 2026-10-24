@@ -1,4 +1,4 @@
-# Python / env
+﻿# Python / env
 __pycache__/
 *.py[cod]
 .venv/
@@ -20,7 +20,7 @@ Thumbs.db
 *.zip
 *.7z
 
-# Large / unrelated trees (keep local; not for this methods repo)
+# Large / unrelated trees
 data/
 quote/
 ref_repo/
@@ -29,27 +29,18 @@ tools/
 patent_invention_draft/
 researchwrite/
 .cursor/
-
-# Chinese project side-folders / archives (local only)
+科研环境/
+发给导师*/
+实用新型*/
 软件著作权*/
-**/软件著作权*/
-信息一致*/
-**/信息一致*/
-发给老师*/
-**/发给老师*/
 实验记录*/
-**/实验记录*/
 导师汇报*/
-**/导师汇报*/
-科研计划*/
-**/科研计划*/
 专利*/
-**/专利*/
 
-# Manuscript / revision notes stay local (not for public reproduction repo)
+# Manuscript stays local
 paper/
 
-# outputs: keep only adopted runs needed for verification
+# outputs: adopted runs only
 outputs/*
 !outputs/info_levels_severson_loco/
 !outputs/info_levels_severson_loco/**
@@ -62,13 +53,12 @@ outputs/*
 !outputs/info_levels_severson/
 !outputs/info_levels_severson/**
 
-# local GitHub PAT (never commit)
-.github_token
-.github_token.txt
-
-
-# literature-search scratch (not metrics)
+# literature-search scratch
 **/ref_batch*.json
 **/ref_crossref_search.json
 **/ref_metadata.json
 
+# local secrets / helpers
+.github_token
+.github_token.txt
+_tmp_*.py

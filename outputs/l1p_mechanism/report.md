@@ -1,4 +1,4 @@
-# L1P mechanism diagnostics
+# L1P / L2 window diagnostics
 
 ## Error structure (test windows, pooled seeds)
 
